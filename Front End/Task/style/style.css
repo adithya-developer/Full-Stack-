@@ -1,0 +1,26 @@
+h2 {
+    color: blueviolet;
+}
+p {
+    font-size: 20px;
+}
+.container {
+    background: linear-gradient(grey, violet, green, red, grey);
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: medium;
+}
+.container:hover {
+    animation: container 1ms ease infinite;
+}
+@keyframes container {
+    0% {
+        background: linear-gradient(blue, red, pink, white, blue);
+    }
+
+    50% {
+        background: linear-gradient(blue, red, pink, white, blue);
+    }
+}

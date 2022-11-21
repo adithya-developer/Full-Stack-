@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+    background-color: beige;
+    font-size: 50px;
+    border: 5px solid blue;
+}
+
+#left {
+    border-left: 10px solid yellow;
+
+}
+
+#right {
+    border-right: 10px solid red;
+}
+
+#top {
+    border-top: 10px solid brown;
+}
+
+#bottom {
+    border-bottom: 10px solid blue;
+}

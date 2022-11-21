@@ -1,0 +1,5 @@
+h1 {
+    color: red;
+    background-color: rg(12, 214);
+    width: fit-content;
+}
